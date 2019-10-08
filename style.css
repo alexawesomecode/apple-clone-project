@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer ul {
+  list-style: none;
+  display: inline;
+}
+
+footer li {
+  display: inline;
+  font-size: 12px;
+  border-left: 1px solid darkgray;
+  padding-left: 4px;
+  color: #08c;
+}
+
+footer li:hover {
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.nav-bar {
+  margin: 2% 5% 3% 5%;
+  text-align: center;
+}
+
+.nav-bar ul {
+  display: flex;
+  list-style: none;
+  -moz-border-radius: 8px;
+  -webkit-border-radius: 8px;
+  background: linear-gradient(0deg, rgba(122, 122, 126, 0.9780287114845938) 0%, rgba(93, 93, 94, 1) 57%, rgba(132, 132, 135, 0.9640231092436975) 93%);
+}
+
+.nav-bar ul > li {
+  flex: 1;
+  height: 34px;
+  border-right: 2px solid gray;
+  padding: 8px;
+  color: white;
+  font-weight: 200;
+  font-family: sans-serif, Arial;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.nav-bar li:hover {
+  background: linear-gradient(0deg, rgba(72, 72, 73, 0.978) 0%, rgba(93, 93, 94, 1) 57%, rgba(61, 61, 63, 0.964) 93%);
+}
+
+.verse-container img {
+  width: 84px;
+  padding-top: 30px;
+  opacity: 0.7;
+}
+
+.news-row img {
+  width: 100%;
+}
+
+#logo > img {
+  width: 20px;
+}
+
+input {
+  width: 100%;
+  background: url("img/search.png") no-repeat 3px, linear-gradient(0deg, rgba(122, 122, 126, 0.9780287114845938) 0%, rgba(93, 93, 94, 1) 57%, rgba(132, 132, 135, 0.9640231092436975) 93%);
+  border-radius: 11px;
+  border: 1px solid gray;
+  height: 21px;
+}
+
+#search-input {
+  border-right: none;
+  flex: 1.2;
+}
+
+#search-input:hover {
+  background: linear-gradient(0deg, rgba(122, 122, 126, 0.9780287114845938) 0%, rgba(93, 93, 94, 1) 57%, rgba(132, 132, 135, 0.9640231092436975) 93%);
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  height: 35rem;
+  background: url("img/background.jpg");
+  background-size: cover;
+}
+
+.verse-container {
+  align-self: center;
+  text-align: center;
+  width: 70%;
+}
+
+.verse-container h1 {
+  font-size: 42px;
+  color: white;
+  font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 100;
+  line-height: 76px;
+}
+
+.verse-container p {
+  font-size: 1.5rem;
+  color: white;
+  font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: 100;
+  letter-spacing: 6px;
+  line-height: 35px;
+}
+
+#sub-text {
+  font-size: 16px;
+}
+
+.news-row {
+  display: flex;
+}
+
+.news-row > div {
+  flex: 1 1 25%;
+}
+
+footer {
+  display: flex;
+  margin: 0 auto;
+  width: 76%;
+  padding: 1.2rem 0 2.6rem;
+}
+
+.footer-block {
+  display: flex;
+}
+
+.footer-block > div {
+  flex-basis: 50%;
+}
+
+footer span {
+  display: inline-block;
+  font-size: 12px;
+  padding-bottom: 0.2rem;
+  padding-right: 0.2rem;
+  color: #6e6e6e;
+}
+
+.links {
+  color: #08c;
+}
